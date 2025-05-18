@@ -1,12 +1,39 @@
-# React + Vite
+# ✨ PasteApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, modern pastebin-style app built using **React**, **Vite**, **Tailwind CSS**, and **Redux Toolkit**. Create, edit, share, and manage text-based notes or code snippets easily.
 
-Currently, two official plugins are available:
+🚀 [Live Demo](https://paste-app-gray-rho.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
-    
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Features
+
+- 📝 Create and update text pastes
+- 🔍 Search pastes by title
+- 📋 Copy and share content with clipboard support
+- 👀 View individual paste
+- 🗑️ Delete pastes
+- 🌐 Shareable URLs via query parameters
+- 💾 Data managed using Redux
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Router](https://reactrouter.com/)
+- [React Hot Toast](https://react-hot-toast.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/SheerazADharekar/PasteApp.git
+cd PasteApp
+npm install
+npm run dev
