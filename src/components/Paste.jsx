@@ -51,12 +51,12 @@ const Paste = () => {
                 <div className="flex flex-row gap-4 place-content-evenly">
                   <button class>
                     <NavLink to={`/?pasteId=${paste?._id}`}>
-                      <GrEdit className="text-white"/>
+                      <GrEdit />
                     </NavLink>
                   </button>
                   <button>
                     <NavLink to={`/pastes/${paste?._id}`}>
-                      <FaEye className="text-white"/>
+                      <FaEye />
                     </NavLink>
                   </button>
                   <button onClick={() => handleDelete(paste?._id)}>
